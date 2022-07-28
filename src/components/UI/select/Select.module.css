@@ -1,0 +1,7 @@
+.select {
+    padding: 5px;
+    font-size: 14px;
+    min-height: 23px;
+    -webkit-appearance: menulist-button;
+    border-radius: 3px;
+}
