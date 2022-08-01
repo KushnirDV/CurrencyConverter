@@ -3,7 +3,7 @@ import React from 'react';
 const Spiner = () => {
     return (
         <div>
-            Loading...
+            Loading tools ...
         </div>
     );
 };

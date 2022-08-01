@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import classes from './ChangeArrow.module.css';
 
 const ChangeArrow = ({change}) => {
@@ -18,4 +18,6 @@ const ChangeArrow = ({change}) => {
     );
 };
 
-export default ChangeArrow;
+// const isChanged = (prevProps, currentProps) => prevProps.change === currentProps.change;  
+
+export default memo(ChangeArrow);
