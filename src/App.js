@@ -13,58 +13,6 @@ import './styles/App.css';
 
 function App() {
 
-    return 'HI';
-
-
-
-
-
-
-
-
-    // palindrome(6,4) => [11,22,33,44]
-    // palindrome(59,3) => [66,77,88]
-    // palindrome(101,2) => [101,111]
-    // palindrome("15651",5) => "Not valid"
-    // palindrome(1221,"8") => "Not valid"
-
-    // const isPalindrome = num => {
-    //     const arrNum = num.toString().split('');
-    //     const reverseNum = arrNum.reverse().join('');
-    //     return reverseNum.length > 1 && num === +reverseNum;
-    // }
-
-    // const resp = [];
-
-    // const palindrome = (num, s) => {
-    //     if(!Number.isInteger(num)) {
-    //         return "Not valid"
-    //     }
-    //     do{
-    //         if(isPalindrome(num)) {
-    //             resp.push(num);
-    //         }
-    //         num += 1;
-    //     } while(resp.length < s);
-
-    //     return resp;
-    // }
-
-    // console.log(palindrome(101, 2));
-
-    // function spy(func) {
-    //     this.calls = [];
-    //     return (...args) => {
-    //       this.calls.push(args.join(','));
-    //       func(args);
-    //     }
-    //   }
-
-    return (<div></div>)
-}
-
-function AppBasic() {
-
     const [amount, setAmount] = useInput(100);
     const [currentCodeFrom, setCurrentCodeFrom] = useState('USD');
     const [currentCodeTo, setCurrentCodeTo] = useState('EUR');
